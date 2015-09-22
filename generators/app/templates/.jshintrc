@@ -1,0 +1,27 @@
+{
+  "browser": true,
+  "node": true,
+  "esnext": true,
+  "bitwise": false,
+  "curly": false,
+  "eqeqeq": true,
+  "eqnull": true,
+  "immed": true,
+  "latedef": false,
+  "laxcomma": false,
+  "newcap": true,
+  "noarg": true,
+  "undef": true,
+  "globalstrict": true,
+  "strict": false,
+  "trailing": true,
+  "smarttabs": true,
+  "white": true,
+  "indent": 2,
+  "validthis": true,
+  "predef": [
+    "jQuery",
+    "$",
+    "require"
+  ]
+}

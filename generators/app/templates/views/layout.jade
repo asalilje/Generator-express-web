@@ -1,0 +1,18 @@
+doctype html
+html
+    head
+        meta(charset='UTF-8')
+        meta(name='viewport', content='width=device-width')
+        title=title
+        block css
+            link(rel='stylesheet', href='/styles/style.css')
+        block js
+            script(src='http://code.jquery.com/jquery-2.1.4.js')
+            <% if (!includeReact) { %>
+            script(src='/public/scripts/main.pack.js')
+            <% } else {  %>
+            script(src='//cdnjs.cloudflare.com/ajax/libs/react/0.13.3/react.js')
+            <% }  %>
+        title= title
+    body
+        block content
